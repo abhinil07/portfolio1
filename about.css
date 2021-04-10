@@ -1,0 +1,162 @@
+.heading_para{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: 500;
+    position: fixed; 
+    display: inline-block;
+    border: #ff1100 4px double;
+    margin: 10px;
+    margin-right: 2px;
+    margin-left: 2px;
+    background-color: #000000; 
+    border-radius: 39px;   
+}
+.heading_para a:link, a:visited{
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.heading_para a:hover, a:active{
+    background-color: greenyellow;
+    color: white;
+    border-radius: 15px;
+}
+.heading_para a:link{
+    color: rgb(184, 184, 184);
+    text-decoration: none;
+}
+
+.heading_para a:visited{
+    color: rgb(236, 6, 6);
+    text-decoration: none;
+}
+
+.heading_para a:link{
+   color: greenyellow;
+   text-decoration: none;
+}
+
+.heading_para a:link, a:visited{
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.heading_para a:hover, a:active{
+    background-color: greenyellow;
+    color: white;
+    border-radius: 15px;
+}
+.heading_para a:link{
+    color: rgb(184, 184, 184);
+    text-decoration: none;
+}
+
+.heading_para a:visited{
+    color: rgb(236, 6, 6);
+    text-decoration: none;
+}
+
+.heading_para a:link{
+   color: greenyellow;
+   text-decoration: none;
+}
+ul{
+    background-color: black;
+    list-style: none;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    
+}
+li{
+    display: inline-block;
+    padding: 1px;
+}
+.header h1{
+    color: cyan;
+    position: relative;
+    left: 70px;
+    top: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-weight: bold;
+
+}
+article p{
+    position: relative;
+    left: 70px;
+    top:100px;
+    color: whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+article p span{
+    font-size: 37px;
+}
+#talk{
+    text-decoration: none;
+    color: orangered;
+    font-size: 45px;
+
+}
+#alchemy{
+    color: orangered;
+
+
+}
+.list{
+    position: relative;
+    top: 170px;
+}
+
+/*responsive styles*/
+
+@media screen and (max-width: 835px){
+
+    .header h1{
+    
+        position: static;
+        text-align: left;
+    
+    }
+    article p{
+        
+        position: static;
+        text-align: left;
+        color: whitesmoke;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 25px;
+    }
+    article p span{
+        font-size: 37px;
+    }
+    #talk{
+        text-decoration: none;
+        color: orangered;
+        font-size: 45px;
+    
+    }
+    
+
+}
+@media screen and (max-width: 700){
+    .heading_para{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 25px;
+        font-weight: 500;
+        position: relative; 
+        display: block;
+        border: #ff1100 4px double;
+        margin: 10px;
+        margin-right: 2px;
+        margin-left: 2px;
+        background-color: #000000; 
+        border-radius: 39px;   
+    }
+    #top_list{
+        width: 100%;
+    }
+
+    
+    
+} 

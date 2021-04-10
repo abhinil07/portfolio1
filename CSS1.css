@@ -1,0 +1,123 @@
+
+ .floating{
+    color: rgba(28, 31, 31, 0.8);
+    text-align: right;
+    font-family: cursive;
+    border: 4px rgb(15, 15, 15) double;
+    background-color: rgba(10, 231, 202, 0.3);
+    position: fixed;
+    border-radius: 20px;
+}
+
+.heading_para{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: 500;
+    position: fixed;
+    display: inline-block;
+    border: #ff1100 4px double;
+    margin: 10px;
+    margin-right: 2px;
+    margin-left: 2px;
+    background-color: #000000;
+    border-radius: 39px;
+}
+.heading_para a:link, a:visited{
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.heading_para a:hover, a:active{
+    background-color: greenyellow;
+    color: white;
+    border-radius: 15px;
+}
+.heading_para a:link{
+    color: rgb(184, 184, 184);
+    text-decoration: none;
+}
+
+.heading_para a:visited{
+    color: rgb(236, 6, 6);
+    text-decoration: none;
+}
+
+.heading_para a:link{
+   color: greenyellow;
+   text-decoration: none;
+}
+.my_pic{
+   display: block;
+   margin-left: auto;
+   margin-right: 25px;
+   border-radius: 60px;
+
+}
+img:hover{
+   height: 1000px;
+   width: 700px;
+}
+.end{
+   background-color: black;
+}
+
+ul{
+   background-color: black;
+   list-style: none;
+   text-align: center;
+   margin: 0px;
+   padding: 0px;
+
+}
+li{
+   display: inline-block;
+   padding: 1px;
+}
+.list li:hover{
+   position: relative;
+   top: -6px;
+}
+
+/*rsponsive styles*/
+
+@media screen and (max-width: 900px){
+
+   .heading_para{
+       font-family: Georgia, 'Times New Roman', Times, serif;
+       font-size: 25px;
+       font-weight: 500;
+       position: relative;
+       display: inline-block;
+       border: #ff1100 4px double;
+       margin: 10px;
+       margin-right: 2px;
+       margin-left: 2px;
+       background-color: #000000;
+       border-radius: 39px;
+   }
+   .heading_para a{
+       width: 100%;
+   }
+   .floating{
+       color: rgba(28, 31, 31, 0.8);
+       text-align: left;
+       font-family: cursive;
+       border: 4px rgb(15, 15, 15) double;
+       background-color: rgba(10, 231, 202, 0.3);
+       position: relative;
+       border-radius: 20px;
+       display: inline-block;
+   }
+   .my_pic:hover{
+       height: 700px;
+       width: 400px;
+   }
+   .my_pic{
+       display: inline-block;
+       margin-left:n 0px;
+       margin-right: 25px;
+       border-radius: 60px;
+
+   }
+
+}

@@ -1,0 +1,199 @@
+.heading_para{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: 500;
+    position: fixed;
+    display: inline-block;
+    border: #ff1100 4px double;
+    margin: 5px;
+    margin-right: 2px;
+    margin-left: 2px;
+    background-color: #000000;
+    border-radius: 39px;
+
+}
+.heading_para a:link, a:visited{
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.heading_para a:hover, a:active{
+    background-color: greenyellow;
+    color: white;
+    border-radius: 15px;
+}
+.heading_para a:link{
+    color: rgb(184, 184, 184);
+    text-decoration: none;
+}
+
+.heading_para a:visited{
+    color: rgb(236, 6, 6);
+    text-decoration: none;
+}
+
+.heading_para a:link{
+   color: greenyellow;
+   text-decoration: none;
+}
+ul{
+    background-color: black;
+    list-style: none;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+
+}
+li{
+    display: inline-block;
+    padding: 1px;
+}
+.head h1{
+    color: yellowgreen;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    text-decoration: underline;
+}
+#mail{
+    color:orangered;
+    font-size: 25px;
+    position: relative;
+    left: 60px;
+}
+#mail a{
+    text-decoration: none;
+    font-size: 34px;
+    color: yellowgreen;
+
+}
+#mail a:hover{
+    position: relative;
+    top: -5px;
+    left: 4px;
+
+}
+form{
+    position: relative;
+    left: 60px;
+}
+form label{
+    color: yellowgreen;
+}
+form label span{
+    color: red;
+}
+
+
+.list ul{
+    background-color: black;
+    list-style: none;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+
+}
+.list ul li{
+    display: inline-block;
+    padding: 1px;
+}
+.list li:hover{
+    position: relative;
+    top: -6px;
+}
+input[type=text]{
+    width: 45%;
+
+    border-radius: 10px;
+    padding: 8px 2px;
+    text-decoration: solid;
+    border-color: gray;
+    border-width: 4px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+input[type=email]{
+    width: 45%;
+    border-radius: 10px;
+    padding: 8px 2px;
+    text-decoration: solid;
+    border-color: gray;
+    border-width: 4px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+textarea{
+    border-width: 2px;
+    border-color: gray;
+    border-radius: 8px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+input[type=submit]{
+    background-color: greenyellow;
+    position: relative;
+    left: 120px;
+    padding: 10px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+
+    color: orangered;
+    border: solid;
+    text-decoration: solid;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+input[type=text]:focus{
+    border-width: 4px;
+    border-color:  rgb(14, 225, 240);
+}
+input[type=email]:focus{
+    border-width: 4px;
+    border-color: rgb(14, 225, 240);
+    outline: none;
+}
+input[type=email]:valid{
+    border-width: 4px;
+    border-color: greenyellow;
+
+}
+input[type=email]:invalid{
+    border-width: 4px;
+    border-color: rgb(245, 6, 6);
+
+}
+
+
+
+@media screen and (max-width: 960px){
+
+    .heading_para{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 25px;
+        font-weight: 500;
+        position: relative;
+        display: inline-block;
+        border: #ff1100 4px double;
+        margin: 10px;
+        margin-right: 2px;
+        margin-left: 2px;
+        background-color: #000000;
+        border-radius: 39px;
+    }
+
+    .head h1{
+      text-align: left;
+    }
+    #mail{
+        color:orangered;
+        font-size: 25px;
+        position: initial;
+        left: 60px;
+    }
+    form{
+        position: initial;
+        left: 60px;
+    }
+}
